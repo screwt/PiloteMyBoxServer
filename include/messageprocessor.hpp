@@ -2,7 +2,6 @@
 #ifndef MESSAGEPROCESSOR_HPP
 #define MESSAGEPROCESSOR_HPP
 
-//#define STATE_SYSTEM_INVISIBLE  = 0x00008000
 
 #include <stdio.h> 
 #include <stdlib.h> 
@@ -11,6 +10,7 @@
 #include <winuser.h>
 #include <psapi.h>
 #include <tlhelp32.h>
+#include <reason.h>
 #include <iostream>
 #include <iterator>
 #include <algorithm>
@@ -21,8 +21,6 @@
 #endif
 
 //#include <mfidl.h>
-//#define _WIN32_WINNT 0x0601
-//#define WINVER 0x0601
 //#include <Devicetopology.h>
 //#include <audioclient.h>
 //#include <mmdeviceapi.h>

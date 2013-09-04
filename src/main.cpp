@@ -1,5 +1,7 @@
 #define _WIN32_WINNT 0x0501 // Windows XP
 #define WINVER 0x0501
+#define _WIN32_WINDOWS 0x0501
+#define BOOST_THREAD_USE_LIB 1
 //
 // main.cpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~
